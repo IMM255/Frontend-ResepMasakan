@@ -1,0 +1,111 @@
+* {
+  scrollbar-width: none;
+}
+
+body {
+  background-color: #F7E1AE;
+}
+body nav {
+  margin: 10px;
+}
+body nav .navbar-nav {
+  border-bottom: 1px solid;
+  gap: 20px;
+}
+body nav .navbar-nav .nav-item {
+  font-size: 20px;
+}
+body nav .navbar-nav .btn-login {
+  background-color: #617A55;
+  padding: 0px 30px;
+  border: none;
+  border-radius: 10px;
+  display: block;
+  margin: auto 0;
+}
+body nav .navbar-nav .btn-register {
+  border-radius: 5px;
+  background-color: transparent;
+  border: none;
+}
+body #showcase {
+  background: url("../images/showcase.png");
+  height: 500px;
+  padding-top: 150px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+body #showcase h1 {
+  font-size: 40px;
+  padding-top: 50px;
+  color: #FFFDE3;
+  font-weight: bold;
+}
+body #showcase .dot {
+  display: inline-block;
+  background-color: #FFF8D6;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+body #showcase .line {
+  display: inline-block;
+  background-color: #FFF8D6;
+  border-radius: 30px;
+  height: 30px;
+  width: 90%;
+}
+body #bahan {
+  height: 100vh;
+}
+body #bahan .ingridients-container {
+  background-color: #FFF8D6;
+  border-radius: 10px;
+  padding: 20px 10px 20px 30px;
+}
+body #bahan .ingridients-container .ingridient-container {
+  border-radius: 10px;
+  background-color: #F7E1AE;
+  padding: 20px 20px;
+}
+body #recommendation {
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+body #recommendation .row-recommendation::-moz-scrollbar {
+  display: none;
+}
+body #recommendation .row-recommendation::-webkit-scrollbar {
+  display: none;
+}
+body #recommendation .card-container .card {
+  min-width: 300px;
+  background-color: #FFF8D6;
+}
+body #nutrision {
+  width: 100%;
+  height: 100vh;
+}
+body #nutrision .swiper-wrapper {
+  width: 100%;
+  height: 35em;
+  display: flex;
+  align-items: center;
+}
+body #nutrision .swiper-wrapper .swiper-slide {
+  width: 100%;
+  display: flex;
+  background-position: center;
+  background-size: cover;
+}
+body #nutrision .swiper-wrapper .card {
+  height: 70%;
+  background-color: #FFF8D6;
+  margin: 0 2em;
+}
+body #nutrision form .search-bar {
+  border-radius: 20px;
+  background-color: #FFF8D6;
+}/*# sourceMappingURL=style.css.map */
