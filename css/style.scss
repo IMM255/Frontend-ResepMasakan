@@ -9,6 +9,8 @@ $color-btn: #617A55;
 } 
 body{
     background-color: $bg-color3;
+       
+    
     nav{
             margin: 10px;
         
@@ -33,6 +35,9 @@ body{
             }
         }
     }
+
+    main{
+    // Dashboard
     #showcase{
         background: url('../images/showcase.png');
         height: 500px;
@@ -132,6 +137,17 @@ body{
                 background-color: $bg-color;
             }
         }
+    }
+
+    // Detail resep
+    #detail-resep{
+    }
+
 }
+
+
+
+
+  
 
 }

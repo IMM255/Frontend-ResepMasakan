@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Yomasak</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg" style="background-color:#F7E1AE;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/YOMASAK.png" width="200px" height="30px" alt="Yomasak">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Bahan Masakan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Resep</a>
+                    </li>
+                    <li class="nav-link">
+                        <button class="btn-login text-white">login</button>
+                    </li>
+                    <li class="nav-link" style="font-size: 18px;">
+                        atau
+                    </li>
+                    <li class="nav-link">
+                        <button class="btn-register">Register</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<main style="background-color: #FFF8D6;">
+    <section id="detail-resep" class="pt-5" >
+        <div class="container">
+            <div class="row rounded pt-3 pb-3" style="background-color: #F7E1AE;">
+                <div class="col-lg-5">
+                    <img src="images/nasi-goreng.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-7 pt-3 pt-lg-0">
+                    <h1>Nasi goreng Mamang Nizar</h1>
+                    <div class="tags d-flex gap-3">
+                        <div class="tag badge text-bg-primary">Kategori</div>
+                        <div class="tag badge text-bg-success">Khas Daerah</div>
+                    </div>
+                    <div class="tags pt-3 d-flex flex-column">
+                        <p class="m-0"><i class="fa-solid fa-utensils"></i> 4 Porsi</p>
+                        <p class="m-0"><i class="fa-regular fa-clock"></i> 30 Menit</p>
+                    </div>
+                    <div class="desc">
+                        <h3>Deskripsi Masakan</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Repellat debitis suscipit sunt laboriosam, labore, placeat 
+                            nobis accusamus molestias facilis ut aspernatur officiis dolorum 
+                            unde atque at saepe ratione sequi laudantium! Lorem ipsum, dolor 
+                            sit amet consectetur adipisicing elit. Nemo, in ea voluptates sed 
+                            aspernatur tenetur.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5 rounded pb-3" style="background-color: #F7E1AE;">
+                    <h1 class="rounded text-center mt-3 w-75 mx-auto" style="background-color: #FFF8D6;" >Bahan - Bahan</h1>
+                    <ol class="list-group list-group-numbered">
+                        <li class="rounded list-group-item ms-2" style="background-color: #FFF8D6;" >Siapkan bahan - bahan dan alat</li>
+                        <li class="rounded list-group-item mt-2 ms-2" style="background-color: #FFF8D6;" >Siapkan bahan - bahan dan alat</li>
+                        <li class="rounded list-group-item mt-2 ms-2" style="background-color: #FFF8D6;" >Siapkan bahan - bahan dan alat</li>
+                        <li class="rounded list-group-item mt-2 ms-2" style="background-color: #FFF8D6;" >Siapkan bahan - bahan dan alat</li>
+                        <li class="rounded list-group-item mt-2 ms-2" style="background-color: #FFF8D6;" >Siapkan bahan - bahan dan alat</li>
+                        <li class="rounded list-group-item mt-2 ms-2" style="background-color: #FFF8D6;" >Siapkan bahan - bahan dan alat</li>
+                        <li class="rounded list-group-item mt-2 ms-2" style="background-color: #FFF8D6;" >Siapkan bahan - bahan dan alat</li>
+                        <li class="rounded list-group-item mt-2 ms-2" style="background-color: #FFF8D6;" >Siapkan bahan - bahan dan alat</li>
+                    </ol>
+            </div>
+
+            <div class="row rounded mt-5" style="background-color: #F7E1AE;">
+                <h3 class="pt-3">Cara Membuat</h3>
+                <div>
+                    <h5>Langkah 1</h5>
+                    <p>Siapkan bahan, haluskan bumbu</p>
+                </div>
+                <div>
+                    <h5>Langkah 2</h5>
+                    <p>Tumis bumbu dan daun salam dengan minyak goreng sampai harum. Tambah air, masak sampai mendidih.</p>
+                    <img class="img-fluid" src="images/nasi-goreng.png" >
+                </div>
+                <div>
+                    <h5>Langkah 3</h5>
+                    <p>Tambahkan tahu, telur, gula, garam, lada bubuk, kaldu bubuk. Aduk rata. Masak sampai mendidih, sekitar 3 menit. Lalu tambahkan santan dan aduk rata. Masak menggunakan api kecil hingga matang dan kuah mengental. Koreksi rasa. Terakhir masukkan kemangi. Aduk, masak sebentar sekitar 1 menit. Sajikan.</p>
+                </div>
+            </div>
+
+            <div class="row pb-5">
+                <div class="container">
+                    <div class="card-komentar mt-5">
+                        <div>
+                            <h5>Komentar</h5>
+                            <hr>
+                        </div>
+                        <div>
+                            <div class="d-flex flex-row p-3 mb-3" style="background-color: #F7E1AE;"> <img src="https://asapcairtenajar.com/frontend/assets/image/user.png"
+                                    style="width: 40px;height:40px" class="rounded-circle mr-3 me-3">
+                                <div class="w-100">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="d-flex flex-row align-items-center"><span class="mr-2 comment-name"><B>Imam</B></span>
+                                        </div>
+                                    </div>
+                                    <small>2023-06-24 06:19:18</small>
+                                    <p class="text-justify comment-text mb-0 ">Enak Mamang Nizar resepnya</p>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-row p-3" style="background-color: #F7E1AE;"> <img src="https://asapcairtenajar.com/frontend/assets/image/user.png"
+                                    style="width: 40px;height:40px" class="rounded-circle mr-3 me-3">
+                                <div class="w-100">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="d-flex flex-row align-items-center"><span class="mr-2 comment-name"><B>riski</B></span>
+                                        </div>
+                                    </div>
+                                    <small>2023-08-01 07:58:30</small>
+                                    <p class="text-justify comment-text mb-0 ">bagus</p>
+                                </div>
+                            </div>
+                        </div>
+                        <form method="post" action="" class ="row-cols-lg-auto g-3" >
+                            <div class="mb-3 mt-3 col-lg-4 ">
+                            <input type="hidden" name="_token" value="iuInMoQPbuIaeNpYRfJLdzok0FavvYmsXzwVwDFA">               
+                                <label for="nama" name="name" class="form-label">Nama</label>
+                                <input type="text" class="form-control" id="nama" name="name" aria-describedby="nama">
+                            </div>
+                            <div class="form-floating col-12 col-lg-auto">
+                                <textarea class="form-control" name="body" placeholder="Leave a comment here" id="floatingTextarea"
+                                    style="height: 100px"></textarea>
+                                <label for="floatingTextarea">Isi komentar...</label>
+                            </div>
+                            <button type="submit" class="btn btn-success mt-3">Tambahkan komentar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+</main>
+
+    <footer class="footer pt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-start  col-12">
+                    <h5>Makan apa ya Hari ini?</h5>
+                    <p>Menyediakan Berbagai macam resep masakan</p>
+                </div>
+                <div class="col-md-2 text-start offset-0  offset-md-1 col-12">
+                    <ul class="nav-footer ps-0 list-unstyled text-black">
+                        <li>
+                            <a class="nav-footer-link text-black text-decoration-none" href="#">Beranda</a>
+                        </li>
+                        <li>
+                            <a class="nav-footer-link text-black text-decoration-none" href="#">Bahan Masakan</a>
+                        </li>
+                        <li>
+                            <a class="nav-footer-link text-black text-decoration-none" href="#">Resep</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-2 text-start offset-md-2 col-12">
+                    <h5>Get Connected</h5>
+                    <ul class="list-unstyled  ">
+                        <li>Indramayu</li>
+                        <li>Indonesia</li>
+                        <li>mapaya@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-6  ms-auto">
+                    <p>Copyright 2023 Mapaya</p>
+                </div>
+                <div class="col-md-3 offset-lg-3 d-flex gap-3 me-auto">
+                    <a href="#"><i class="fa-brands fa-facebook" style="color: black;"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram" style="color: black;"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter" style="color: black;"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
+
+

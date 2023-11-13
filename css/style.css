@@ -28,7 +28,7 @@ body nav .navbar-nav .btn-register {
   background-color: transparent;
   border: none;
 }
-body #showcase {
+body main #showcase {
   background: url("../images/showcase.png");
   height: 500px;
   padding-top: 150px;
@@ -36,13 +36,13 @@ body #showcase {
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
-body #showcase h1 {
+body main #showcase h1 {
   font-size: 40px;
   padding-top: 50px;
   color: #FFFDE3;
   font-weight: bold;
 }
-body #showcase .dot {
+body main #showcase .dot {
   display: inline-block;
   background-color: #FFF8D6;
   width: 30px;
@@ -50,62 +50,62 @@ body #showcase .dot {
   border-radius: 50%;
   margin-right: 15px;
 }
-body #showcase .line {
+body main #showcase .line {
   display: inline-block;
   background-color: #FFF8D6;
   border-radius: 30px;
   height: 30px;
   width: 90%;
 }
-body #bahan {
+body main #bahan {
   height: 100vh;
 }
-body #bahan .ingridients-container {
+body main #bahan .ingridients-container {
   background-color: #FFF8D6;
   border-radius: 10px;
   padding: 20px 10px 20px 30px;
 }
-body #bahan .ingridients-container .ingridient-container {
+body main #bahan .ingridients-container .ingridient-container {
   border-radius: 10px;
   background-color: #F7E1AE;
   padding: 20px 20px;
 }
-body #recommendation {
+body main #recommendation {
   overflow-x: hidden;
   min-height: 100vh;
 }
-body #recommendation .row-recommendation::-moz-scrollbar {
+body main #recommendation .row-recommendation::-moz-scrollbar {
   display: none;
 }
-body #recommendation .row-recommendation::-webkit-scrollbar {
+body main #recommendation .row-recommendation::-webkit-scrollbar {
   display: none;
 }
-body #recommendation .card-container .card {
+body main #recommendation .card-container .card {
   min-width: 300px;
   background-color: #FFF8D6;
 }
-body #nutrision {
+body main #nutrision {
   width: 100%;
   height: 100vh;
 }
-body #nutrision .swiper-wrapper {
+body main #nutrision .swiper-wrapper {
   width: 100%;
   height: 35em;
   display: flex;
   align-items: center;
 }
-body #nutrision .swiper-wrapper .swiper-slide {
+body main #nutrision .swiper-wrapper .swiper-slide {
   width: 100%;
   display: flex;
   background-position: center;
   background-size: cover;
 }
-body #nutrision .swiper-wrapper .card {
+body main #nutrision .swiper-wrapper .card {
   height: 70%;
   background-color: #FFF8D6;
   margin: 0 2em;
 }
-body #nutrision form .search-bar {
+body main #nutrision form .search-bar {
   border-radius: 20px;
   background-color: #FFF8D6;
 }/*# sourceMappingURL=style.css.map */
