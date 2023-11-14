@@ -108,4 +108,13 @@ body main #nutrision .swiper-wrapper .card {
 body main #nutrision form .search-bar {
   border-radius: 20px;
   background-color: #FFF8D6;
+}
+body main #profile {
+  min-height: 100vh;
+}
+body main #login .img-container img {
+  width: 150px;
+  height: 520px;
+  object-fit: cover;
+  border-radius: 10px;
 }/*# sourceMappingURL=style.css.map */

@@ -143,6 +143,22 @@ body{
     #detail-resep{
     }
 
+    // Profile{
+    #profile{
+        min-height: 100vh;
+    }
+
+    //login
+    #login{
+        .img-container{
+            img{
+                width: 150px;
+                height: 520px;
+                object-fit: cover;
+                border-radius: 10px;
+            }
+        }
+    }
 }
 
 
